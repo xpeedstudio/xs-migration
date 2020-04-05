@@ -1,0 +1,19 @@
+{
+    "name": "xpeedstudio/xs-migration",
+    "description": "To convert old plugin data into new plugin data format",
+    "type": "wordpress-plugin-helper",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Md. Atiqur Rahman",
+            "email": "atiqur.su@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "XS\\Migration\\": "src/"
+        }
+    }
+}
